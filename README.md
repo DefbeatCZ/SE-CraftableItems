@@ -7,13 +7,11 @@ Also big thanks to Bačiulis for for A) creating his SE mods and B) his planter 
 
 What is included ...
 
-Planters are now a working refinery with recipes:
-Gravel => Organic (Organic can be produced in assemblers as well)
-Ice    => Cultivated Organic
-
-Survival Kit is now having consumables category, allowing base necesities to be created anywhere.
-
-Most items from this mod and from E.D.S.R! are now available for purchase from dispenser block.
+* Planters are now a working refinery with recipes:
+  * Gravel => Organic (Organic can be produced in assemblers as well)
+  * Ice    => Cultivated Organic
+* Survival Kit is now having consumables category, allowing base necesities to be created anywhere.
+* Most items from this mod and from E.D.S.R! are now available for purchase from dispenser block.
 
 Consumables (assuming this mod is loaded after E.D.S.R!)
 Craftable Items       | Surv.Kit | BaseAssy | Adv.Assy | Dispenser | Food  | Water | Sleep | HP    | Power |
