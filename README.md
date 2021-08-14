@@ -13,7 +13,7 @@ What is included ...
 * Survival Kit is now having consumables category, allowing base necesities to be created anywhere.
 * Most items from this mod and from E.D.S.R! are now available for purchase from dispenser block.
 
-Consumables (assuming this mod is loaded after E.D.S.R!)
+Consumables (assuming this mod is loaded before E.D.S.R!)
 Craftable Items       | Surv.Kit | BaseAssy | Adv.Assy | Dispenser | Food  | Water | Sleep | HP    | Power |
 ----------------------|----------|----------|----------|-----------|-------|-------|-------|-------|-------|
 Clang Cola            |          |  X       |  X       |  X        |   +10 |   +50 |       |       |       |
