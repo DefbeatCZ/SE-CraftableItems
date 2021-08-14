@@ -101,7 +101,7 @@
         <Item Amount="0.6" TypeId="Ore" SubtypeId="Organic" />
         <Item Amount="1.8" TypeId="Ore" SubtypeId="CultivatedOrganic" />
       </Prerequisites>
-      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="Organic" />
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="EmergencyFoodPack" />
       <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
     </Blueprint> 
   
@@ -169,6 +169,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Ore" SubtypeId="Organic" />
       <BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>      
   
     <Blueprint>
@@ -183,6 +184,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Ore" SubtypeId="CultivatedOrganic" />
       <BaseProductionTimeInSeconds>1500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint> 
   
   </Blueprints>
