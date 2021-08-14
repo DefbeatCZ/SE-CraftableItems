@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+      <Id>
+        <TypeId>ConsumableItem</TypeId>
+        <SubtypeId>ClangCola</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_ClangCola</DisplayName>
+      <Description>Description_ClangKola</Description>
+      <Icon>Textures\Icons\ClangCola.dds</Icon>
+      <Size>
+        <X>0.14</X>
+        <Y>0.43</Y>
+        <Z>0.14</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\ClangCola.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <Stats>
+        <Stat Name="Water" Value ="0.10" Time="5"/>
+        <Stat Name="Food" Value ="0.02" Time="5"/>
+      </Stats>
+      <MinimalPricePerUnit>120</MinimalPricePerUnit>
+      <MinimumOfferAmount>1000</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>        
+
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+      <Id>
+        <TypeId>ConsumableItem</TypeId>
+        <SubtypeId>ClangColaLight</SubtypeId>
+      </Id>
+      <DisplayName>Clang Cola Light</DisplayName>
+      <Description>Clang Cola Light</Description>
+      <Icon>Textures\Icons\ClangColaLight.dds</Icon>
+      <Size>
+        <X>0.14</X>
+        <Y>0.43</Y>
+        <Z>0.14</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\ClangCola.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <Stats>
+        <Stat Name="Water" Value ="0.10" Time="5"/>
+      </Stats>
+      <MinimalPricePerUnit>100</MinimalPricePerUnit>
+      <MinimumOfferAmount>1000</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem> 
+        
+		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+      <Id>
+        <TypeId>ConsumableItem</TypeId>
+        <SubtypeId>ClangColaExtreme</SubtypeId>
+      </Id>
+      <DisplayName>Clang Cola Extreme</DisplayName>
+      <Description>Clang Cola Extreme</Description>
+      <Icon>Textures\Icons\ClangColaExtreme.dds</Icon>
+      <Size>
+        <X>0.14</X>
+        <Y>0.43</Y>
+        <Z>0.14</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\ClangCola.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <Stats>
+        <Stat Name="Water" Value ="0.10" Time="5"/>
+        <Stat Name="Food" Value ="0.03" Time="5"/>
+        <Stat Name="Health" Value ="0.02" Time="5"/>
+      </Stats>
+      <MinimalPricePerUnit>150</MinimalPricePerUnit>
+      <MinimumOfferAmount>1000</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem> 
+
+    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+      <Id>
+        <TypeId>ConsumableItem</TypeId>
+        <SubtypeId>CosmicCoffee</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_CosmicCoffee</DisplayName>
+      <Description>Description_CosmicCoffee</Description>
+      <Icon>Textures\Icons\CosmicCoffee.dds</Icon>
+      <Size>
+        <X>0.14</X>
+        <Y>0.43</Y>
+        <Z>0.14</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\CosmicCoffee.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <Stats>
+        <Stat Name="Water" Value ="-0.01" Time="5"/>
+        <Stat Name="Sleep" Value ="0.05" Time="5"/>
+      </Stats>
+            
+      <MinimalPricePerUnit>120</MinimalPricePerUnit>
+      <MinimumOfferAmount>1000</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+        
+    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+      <Id>
+        <TypeId>ConsumableItem</TypeId>
+        <SubtypeId>EmergencyFoodPack</SubtypeId>
+      </Id>
+      <DisplayName>Emergency Food Pack</DisplayName>
+      <Description>Simple survival meal</Description>
+      <Icon>Textures\Icons\EmergencyFoodPack.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>10</Mass>
+      <Volume>12</Volume>
+      <Model>Models\Medkit_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <Stats>
+        <Stat Name="Food" Value ="0.15" Time="5"/>
+        <Stat Name="Water" Value ="0.10" Time="5"/>
+      </Stats>
+
+      <MinimalPricePerUnit>350</MinimalPricePerUnit>
+      <MinimumOfferAmount>1000</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+        
+    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+      <Id>
+        <TypeId>ConsumableItem</TypeId>
+        <SubtypeId>DailyFoodPack</SubtypeId>
+      </Id>
+      <DisplayName>Daily Food Pack</DisplayName>
+      <Description>Full meal in one package</Description>
+      <Icon>Textures\Icons\DailyFoodPack.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>10</Mass>
+      <Volume>12</Volume>
+      <Model>Models\Medkit_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <Stats>
+        <Stat Name="Food" Value ="0.20" Time="5"/>
+        <Stat Name="Water" Value ="0.10" Time="5"/>
+      </Stats>
+
+      <MinimalPricePerUnit>620</MinimalPricePerUnit>
+      <MinimumOfferAmount>1000</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+        
+    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+      <Id>
+        <TypeId>ConsumableItem</TypeId>
+        <SubtypeId>Medkit</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Medkit</DisplayName>
+      <Description>Description_Medkit</Description>
+      <Icon>Textures\Icons\MedKit.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>10</Mass>
+      <Volume>12</Volume>
+      <Model>Models\Medkit_Item.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <Stats>
+        <Stat Name="Health" Value ="0.05" Time="5"/>
+      </Stats>
+
+      <MinimalPricePerUnit>750</MinimalPricePerUnit>
+      <MinimumOfferAmount>1000</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+        
+    <PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>CultivatedOrganic</SubtypeId>
+      </Id>
+      <DisplayName>Cultivated Organic Matter</DisplayName>
+      <Icon>Textures\Icons\CultivatedOrganics.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.37</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Organic</IconSymbol>
+    </PhysicalItem>
+
+  </PhysicalItems>
+</Definitions>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+  
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>SurvivalConsumables</SubtypeId>
+      </Id>
+      
+      <DisplayName>Consumables</DisplayName>
+      <Icon>Textures\Icons\Consumables.dds</Icon>
+      <HighlightIcon>Textures\Icons\ConsumablesFocus.dds</HighlightIcon>
+    </Class>
+    
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Planter</SubtypeId>
+      </Id>
+      
+      <DisplayName>Planter</DisplayName>
+      <Icon>Textures\Icons\Consumables.dds</Icon>
+      <HighlightIcon>Textures\Icons\ConsumablesFocus.dds</HighlightIcon>
+    </Class>
+    
+  </BlueprintClasses>
+  
+  <BlueprintClassEntries>
+  
+    <Entry Class="SurvivalConsumables" BlueprintSubtypeId="CSI_OrganicAssembler" />
+    <Entry Class="SurvivalConsumables" BlueprintSubtypeId="CSI_ClangColaLight" />
+    <Entry Class="SurvivalConsumables" BlueprintSubtypeId="CSI_EmergencyFood" />
+    <Entry Class="SurvivalConsumables" BlueprintSubtypeId="CSI_PowerKit" />
+    <Entry Class="SurvivalConsumables" BlueprintSubtypeId="SparklingWater" />
+
+    <Entry Class="Consumables" BlueprintSubtypeId="CSI_OrganicAssembler" />
+    <Entry Class="Consumables" BlueprintSubtypeId="CSI_ClangCola" />
+    <Entry Class="Consumables" BlueprintSubtypeId="CSI_ClangColaLight" />
+    <Entry Class="Consumables" BlueprintSubtypeId="CSI_CosmicCoffee" />
+    <Entry Class="Consumables" BlueprintSubtypeId="CSI_DailyFood" />
+    <Entry Class="Consumables" BlueprintSubtypeId="CSI_EmergencyFood" />
+    <Entry Class="Consumables" BlueprintSubtypeId="CSI_PowerKit" />
+
+    <Entry Class="EliteConsumables" BlueprintSubtypeId="CSI_OrganicAssembler" />
+    <Entry Class="EliteConsumables" BlueprintSubtypeId="CSI_ClangCola" />
+    <Entry Class="EliteConsumables" BlueprintSubtypeId="CSI_ClangColaLight" />
+    <Entry Class="EliteConsumables" BlueprintSubtypeId="CSI_ClangColaExtreme" />
+    <Entry Class="EliteConsumables" BlueprintSubtypeId="CSI_CosmicCoffee" />
+    <Entry Class="EliteConsumables" BlueprintSubtypeId="CSI_DailyFood" />
+    <Entry Class="EliteConsumables" BlueprintSubtypeId="CSI_EmergencyFood" />
+    <Entry Class="EliteConsumables" BlueprintSubtypeId="CSI_Medkit" />
+    <Entry Class="EliteConsumables" BlueprintSubtypeId="CSI_PowerKit" />
+
+    <Entry Class="Planter" BlueprintSubtypeId="CSI_OrganicPlanter" />
+    <Entry Class="Planter" BlueprintSubtypeId="CSI_CultivatedOrganics" />
+
+  </BlueprintClassEntries>
+</Definitions>
