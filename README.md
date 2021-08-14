@@ -17,7 +17,7 @@ Most items from this mod and from E.D.S.R! are now available for purchase from d
 
 Consumables (assuming this mod is loaded after E.D.S.R!)
 Craftable Items       | Surv.Kit | BaseAssy | Adv.Assy | Dispenser | Food  | Water | Sleep | HP    | Power |
-
+----------------------|----------|----------|----------|-----------|-------|-------|-------|-------|-------|
 Clang Cola            |          |  X       |  X       |  X        |   +10 |   +50 |       |       |       |
 Clang Cola Light      |  X       |  X       |  X       |  X        |       |   +50 |       |       |       |
 Clang Cola Extreme    |          |          |  X       |  X        |   +15 |   +50 |       |   +10 |       |
