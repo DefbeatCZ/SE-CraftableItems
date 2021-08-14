@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PhysicalItems>
 
-		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
       <Id>
         <TypeId>ConsumableItem</TypeId>
         <SubtypeId>ClangCola</SubtypeId>
@@ -29,7 +29,7 @@
       <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>        
 
-		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
       <Id>
         <TypeId>ConsumableItem</TypeId>
         <SubtypeId>ClangColaLight</SubtypeId>
@@ -55,7 +55,7 @@
       <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem> 
         
-		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
       <Id>
         <TypeId>ConsumableItem</TypeId>
         <SubtypeId>ClangColaExtreme</SubtypeId>
