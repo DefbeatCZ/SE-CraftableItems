@@ -15,8 +15,8 @@
         <Y>0.43</Y>
         <Z>0.14</Z>
       </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
+      <Mass>0.5</Mass>
+      <Volume>0.5</Volume>
       <Model>Models\ClangCola.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <Stats>
@@ -42,8 +42,8 @@
         <Y>0.43</Y>
         <Z>0.14</Z>
       </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
+      <Mass>0.5</Mass>
+      <Volume>0.5</Volume>
       <Model>Models\ClangCola.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <Stats>
@@ -68,8 +68,8 @@
         <Y>0.43</Y>
         <Z>0.14</Z>
       </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
+      <Mass>0.5</Mass>
+      <Volume>0.5</Volume>
       <Model>Models\ClangCola.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <Stats>
@@ -96,8 +96,8 @@
         <Y>0.43</Y>
         <Z>0.14</Z>
       </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
+      <Mass>0.5</Mass>
+      <Volume>0.5</Volume>
       <Model>Models\CosmicCoffee.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <Stats>
@@ -124,8 +124,8 @@
         <Y>0.5</Y>
         <Z>0.5</Z>
       </Size>
-      <Mass>10</Mass>
-      <Volume>12</Volume>
+      <Mass>1.5</Mass>
+      <Volume>2</Volume>
       <Model>Models\Medkit_Item.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <Stats>
@@ -152,8 +152,8 @@
         <Y>0.5</Y>
         <Z>0.5</Z>
       </Size>
-      <Mass>10</Mass>
-      <Volume>12</Volume>
+      <Mass>1.5</Mass>
+      <Volume>2</Volume>
       <Model>Models\Medkit_Item.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <Stats>
