@@ -83,7 +83,7 @@
         <Item Amount="7.4" TypeId="Ore" SubtypeId="Ice" />
         <Item Amount="1.9" TypeId="Ore" SubtypeId="Organic" />
       </Prerequisites>
-      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="EmergencyFoodPack" />
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="DailyFoodPack" />
       <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
     </Blueprint> 
   
